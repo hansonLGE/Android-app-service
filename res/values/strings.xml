@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">News</string>
+    <string name="news_url">http://html5-epg.wasu.tv/news.shtml</string>
+    <string name="permission_read_database">read widget service data</string>
+    <string name="permission_write_database">write widget service data</string>
+    <string name="wait">Loading data...</string>
+
+</resources>

@@ -1,0 +1,74 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grid_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/grid_content0"
+        android:layout_width="fill_parent"
+        android:layout_height="130px"
+        android:background="#fff1f1f1" >
+
+        <ImageView
+            android:id="@+id/list_pic_up"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/title_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/list_pic_up"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/list_pic_up"
+            android:layout_toRightOf="@id/list_pic_up"
+            android:ellipsize="end"
+            android:gravity="left|center"
+            android:maxLines="2"
+            android:paddingLeft="5px"
+            android:paddingRight="5px"
+            android:text="@string/wait"
+            android:textColor="#ff2a2a2a"
+            android:textSize="36px" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/grid_content1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="2px"
+        android:background="#fff1f1f1" >
+
+        <ImageView
+            android:id="@+id/list_pic_down"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/title_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/list_pic_down"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/list_pic_down"
+            android:layout_toRightOf="@id/list_pic_down"
+            android:ellipsize="end"
+            android:gravity="left|center"
+            android:maxLines="2"
+            android:paddingLeft="5px"
+            android:paddingRight="5px"
+            android:text="@string/wait"
+            android:textColor="#ff2a2a2a"
+            android:textSize="36px" />
+    </RelativeLayout>
+
+</LinearLayout>
